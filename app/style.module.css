@@ -1,0 +1,9 @@
+.header {
+  height: 8vh;
+  @apply py-8 px-20;
+}
+
+.body {
+  height: 92vh;
+  @apply flex justify-center items-center gap-10;
+}

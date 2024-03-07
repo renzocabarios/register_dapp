@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+body{
+  @apply bg-yellow-50;
+  min-height: 100%;
+}
+
+.header {
+  height: 8vh;
+  @apply py-8 px-20;
+}
+
+.body {
+  height: 92vh;
+  @apply flex justify-center items-center gap-10;
+}
+
+.container {
+  /* height: 30rem; */
+  width: 30rem;
+}
+
+.vheight {
+  height: calc(100vh - 75px);
+}
