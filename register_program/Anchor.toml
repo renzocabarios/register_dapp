@@ -8,7 +8,7 @@ register_program = "3vmfRWf5EECYFANd2tQqJxrsKyYtb5Da8sAHjLPeLbK1"
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "Localnet"
+cluster = "devnet"
 wallet = "/home/renzo/.config/solana/id.json"
 
 [scripts]

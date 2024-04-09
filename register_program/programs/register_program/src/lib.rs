@@ -43,3 +43,5 @@ pub struct User {
     pub email: String, // 4 + length of string in bytes
     pub bump: u8, // 1 byte
 }
+
+
